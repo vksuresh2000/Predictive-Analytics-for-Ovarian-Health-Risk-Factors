@@ -1,0 +1,133 @@
+{
+    "name": "High Visibility Medical Corporate Theme",
+    "dataColors": [
+        "#007A78", 
+        "#2E5B70", 
+        "#E67E22", 
+        "#E74C3C", 
+        "#34495E", 
+        "#1ABC9C", 
+        "#9B59B6", 
+        "#3498DB"
+    ],
+    "background": "#F4F7F6",
+    "foreground": "#0A1114",
+    "tableAccent": "#007A78",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "background": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "transparency": 0
+                    }
+                ],
+                "border": [
+                    {
+                        "show": true,
+                        "color": { "solid": { "color": "#A0B2B2" } },
+                        "radius": 10
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "position": "Outer",
+                        "preset": "BottomRight"
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": true
+                    }
+                ]
+            }
+        },
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": { "solid": { "color": "#F4F7F6" } },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "labels": [
+                    {
+                        "fontFamily": "Segoe UI Bold",
+                        "fontSize": 12,
+                        "color": { "solid": { "color": "#1A252C" } }
+                    }
+                ],
+                "cardLabels": [
+                    {
+                        "fontFamily": "Segoe UI Black",
+                        "fontSize": 36,
+                        "color": { "solid": { "color": "#00615F" } }
+                    }
+                ]
+            }
+        },
+        "matrix": {
+            "*": {
+                "grid": [
+                    {
+                        "gridStyle": "Horizontal",
+                        "outlineColor": { "solid": { "color": "#007A78" } },
+                        "gridStyleThickness": 2
+                    }
+                ],
+                "columnHeaders": [
+                    {
+                        "fontFamily": "Segoe UI Black",
+                        "fontSize": 11,
+                        "fontColor": { "solid": { "color": "#FFFFFF" } },
+                        "backColor": { "solid": { "color": "#00615F" } }
+                    }
+                ],
+                "rowHeaders": [
+                    {
+                        "fontFamily": "Segoe UI Bold",
+                        "fontSize": 11,
+                        "fontColor": { "solid": { "color": "#0A1114" } },
+                        "backColor": { "solid": { "color": "#E5EFEF" } }
+                    }
+                ],
+                "values": [
+                    {
+                        "fontFamily": "Segoe UI Semibold",
+                        "fontSize": 11,
+                        "fontColor": { "solid": { "color": "#0A1114" } }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "header": [
+                    {
+                        "fontFamily": "Segoe UI Black",
+                        "fontSize": 12,
+                        "fontColor": { "solid": { "color": "#1A252C" } }
+                    }
+                ],
+                "slider": [
+                    {
+                        "color": { "solid": { "color": "#007A78" } }
+                    }
+                ],
+                "input": [
+                    {
+                        "fontFamily": "Segoe UI Bold",
+                        "fontSize": 11,
+                        "fontColor": { "solid": { "color": "#0A1114" } }
+                    }
+                ]
+            }
+        }
+    }
+}
